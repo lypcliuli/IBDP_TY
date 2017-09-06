@@ -1,0 +1,14 @@
+source 'https://git.oschina.net/ct5621/ShareUtils.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+platform :ios, "9.0"
+
+target :IBDP_TY do
+pod 'CTCommon',:git=>"https://git.oschina.net/ct5621/CTCommon.git"
+pod 'ShareUtils','2.1.0'
+pod 'SDCycleScrollView', '~> 1.65'
+pod 'YYModel', '~> 1.0.4'
+pod 'UICollectionViewLeftAlignedLayout', '~> 1.0.2'
+pod 'SDAutoLayout', '~> 2.1.3'
+end
